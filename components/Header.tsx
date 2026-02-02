@@ -14,6 +14,8 @@ export default function Header() {
                     <NavLink href="/calculators/emi">EMI</NavLink>
                     <NavLink href="/calculators/fire">FIRE</NavLink>
                     <NavLink href="/calculators/lumpsum">Lump Sum</NavLink>
+                    <NavLink href="/calculators/fd">FD</NavLink>
+                
                 </nav>
             </div>
         </header>

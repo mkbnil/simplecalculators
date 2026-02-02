@@ -30,6 +30,11 @@ export default function Home() {
           description="Calculate future value of one-time investment"
           href="/calculators/lumpsum"
         />
+         <CalculatorCard
+          title="FD Calculator"
+          description="Calculate fixed deposit maturity and interest"
+          href="/calculators/fd"
+        />
 
         
 
