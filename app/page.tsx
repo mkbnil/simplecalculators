@@ -45,6 +45,11 @@ export default function Home() {
           description="Calculate the impact of inflation on purchasing power"
           href="/calculators/inflation"
         />
+         <CalculatorCard
+          title="Income Tax Calculator"
+          description="Compare old vs new tax regimes in India"
+          href="/calculators/incometax"
+        />
 
         
 

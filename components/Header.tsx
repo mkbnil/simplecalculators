@@ -17,7 +17,7 @@ export default function Header() {
                     <NavLink href="/calculators/fd">FD</NavLink>
                     <NavLink href="/calculators/rd">RD</NavLink>
                     <NavLink href="/calculators/inflation">Inflation</NavLink>
-
+                    <NavLink href="/calculators/incometax">Income Tax</NavLink>
 
                 </nav>
             </div>
