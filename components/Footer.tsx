@@ -49,6 +49,14 @@ export default function Footer() {
             </li>
             <li>
               <Link
+                href="/disclaimer"
+                className="hover:text-gray-900"
+              >
+                Disclaimer
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/about"
                 className="hover:text-gray-900"
               >
@@ -63,6 +71,7 @@ export default function Footer() {
                 Contact
               </Link>
             </li>
+            
           </ul>
         </div>
 

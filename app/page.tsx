@@ -25,27 +25,27 @@ export default function Home() {
           description="Find your financial independence number"
           href="/calculators/fire"
         />
-         <CalculatorCard
+        <CalculatorCard
           title="Lump Sum Calculator"
           description="Calculate future value of one-time investment"
           href="/calculators/lumpsum"
         />
-         <CalculatorCard
+        <CalculatorCard
           title="FD Calculator"
           description="Calculate fixed deposit maturity and interest"
           href="/calculators/fd"
         />
-         <CalculatorCard
+        <CalculatorCard
           title="RD Calculator"
           description="Calculate recurring deposit maturity and interest"
           href="/calculators/rd"
         />
-         <CalculatorCard
+        <CalculatorCard
           title="Inflation Calculator"
           description="Calculate the impact of inflation on purchasing power"
           href="/calculators/inflation"
         />
-         <CalculatorCard
+        <CalculatorCard
           title="Income Tax Calculator"
           description="Compare old vs new tax regimes in India"
           href="/calculators/incometax"
@@ -61,9 +61,33 @@ export default function Home() {
           href="/calculators/takehome"
         />
 
-        
+
+
+
 
       </div>
+      <section className="mt-12 space-y-3 text-gray-700 max-w-3xl">
+        <h2 className="text-xl font-semibold">
+          Learn About Personal Finance
+        </h2>
+
+        <p>
+          Before using calculators, it is helpful to understand how
+          financial rules work. Our guides explain important topics in
+          simple language.
+        </p>
+
+        <p>
+          👉{" "}
+          <a
+            href="/guides/tax-regime"
+            className="text-indigo-600 font-medium"
+          >
+            How to Choose Between Old and New Tax Regime in India
+          </a>
+        </p>
+      </section>
+
     </Container>
   );
 }
