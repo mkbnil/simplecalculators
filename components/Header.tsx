@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavLink from "./NavLink";
 
 export default function Header() {
     return (
@@ -8,16 +9,11 @@ export default function Header() {
                     SimpleCalculators
                 </Link>
 
-                <nav className="text-sm text-gray-600 flex gap-4">
-                    <Link href="/calculators/sip" className="hover:text-black">
-                        SIP
-                    </Link>
-                    <Link href="/calculators/emi" className="hover:text-black">
-                        EMI
-                    </Link>
-                    <Link href="/calculators/fire" className="hover:text-black">
-                        FIRE
-                    </Link>
+                <nav className="text-sm text-gray-600 flex gap-6 items-center">
+                    <NavLink href="/calculators/sip">SIP</NavLink>
+                    <NavLink href="/calculators/emi">EMI</NavLink>
+                    <NavLink href="/calculators/fire">FIRE</NavLink>
+                    <NavLink href="/calculators/lumpsum">Lump Sum</NavLink>
                 </nav>
             </div>
         </header>

@@ -25,6 +25,13 @@ export default function Home() {
           description="Find your financial independence number"
           href="/calculators/fire"
         />
+         <CalculatorCard
+          title="Lump Sum Calculator"
+          description="Calculate future value of one-time investment"
+          href="/calculators/lumpsum"
+        />
+
+        
 
       </div>
     </Container>
