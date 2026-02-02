@@ -35,6 +35,16 @@ export default function Home() {
           description="Calculate fixed deposit maturity and interest"
           href="/calculators/fd"
         />
+         <CalculatorCard
+          title="RD Calculator"
+          description="Calculate recurring deposit maturity and interest"
+          href="/calculators/rd"
+        />
+         <CalculatorCard
+          title="Inflation Calculator"
+          description="Calculate the impact of inflation on purchasing power"
+          href="/calculators/inflation"
+        />
 
         
 

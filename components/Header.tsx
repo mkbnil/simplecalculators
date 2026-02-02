@@ -15,7 +15,10 @@ export default function Header() {
                     <NavLink href="/calculators/fire">FIRE</NavLink>
                     <NavLink href="/calculators/lumpsum">Lump Sum</NavLink>
                     <NavLink href="/calculators/fd">FD</NavLink>
-                
+                    <NavLink href="/calculators/rd">RD</NavLink>
+                    <NavLink href="/calculators/inflation">Inflation</NavLink>
+
+
                 </nav>
             </div>
         </header>
