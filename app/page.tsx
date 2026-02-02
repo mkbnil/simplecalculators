@@ -50,6 +50,16 @@ export default function Home() {
           description="Compare old vs new tax regimes in India"
           href="/calculators/incometax"
         />
+        <CalculatorCard
+          title="Salary Breakup Calculator"
+          description="Break down your CTC into salary components"
+          href="/calculators/salarybreakup"
+        />
+        <CalculatorCard
+          title="Take Home Calculator"
+          description="Calculate your monthly in-hand salary after tax, PF, and deductions"
+          href="/calculators/takehome"
+        />
 
         
 
