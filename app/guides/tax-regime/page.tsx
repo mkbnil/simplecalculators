@@ -72,7 +72,7 @@ export default function Page() {
         <p>
           👉{" "}
           <Link
-            href="/calculators/income-tax"
+            href="/calculators/incometax"
             className="text-indigo-600 font-medium"
           >
             Try the Income Tax Regime Comparison Calculator
