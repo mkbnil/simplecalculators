@@ -31,6 +31,16 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
+          <ul className="space-y-1">
+            <li>
+              <Link
+                href="/guides/income-tax-basics"
+                className="hover:text-gray-900"
+              >
+                Income Tax Basics
+              </Link>
+            </li>
+          </ul>
         </div>
 
         {/* LEGAL */}
@@ -57,7 +67,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/ib"
                 className="hover:text-gray-900"
               >
                 About
