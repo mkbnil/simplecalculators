@@ -41,6 +41,16 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
+          <ul className="space-y-1">
+            <li>
+              <Link
+                href="/guides/salary-structure"
+                className="hover:text-gray-900"
+              >
+                Salary Structure Guide
+              </Link>
+            </li>
+          </ul>
         </div>
 
         {/* LEGAL */}
