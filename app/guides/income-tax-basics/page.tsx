@@ -55,6 +55,17 @@ export default function Page() {
             include standard deduction, provident fund contributions,
             insurance premiums, and other eligible investments.
           </p>
+          <p className="mt-4">
+            Your taxable income depends heavily on how your salary is structured.
+            To understand how components like basic salary, HRA, and provident fund
+            affect taxation, read our detailed guide on{" "}
+            <Link
+              href="/guides/salary-structure"
+              className="text-indigo-600 font-medium hover:underline"
+            >
+              Understanding Salary Structure in India
+            </Link>.
+          </p>
 
           <h2 className="text-2xl font-semibold text-gray-900 mt-10 mb-4">
             Old vs New Tax Regime

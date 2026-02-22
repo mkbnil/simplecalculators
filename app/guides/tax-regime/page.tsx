@@ -28,6 +28,18 @@ export default function Page() {
             pay each year.
           </p>
 
+          <p className="mt-4">
+            If you are unsure how your income is structured, start by reading our
+            guide on{" "}
+            <Link
+              href="/guides/salary-structure"
+              className="text-indigo-600 font-medium hover:underline"
+            >
+              Understanding Salary Structure in India
+            </Link>{" "}
+            before choosing a tax regime.
+          </p>
+
           <h2 className="text-2xl font-semibold text-gray-900 mt-10 mb-4">
             What Is the Old Tax Regime?
           </h2>
