@@ -17,14 +17,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/guides/salary-structure",
 
     // Calculators
-    "/calculators/income-tax",
+    "/calculators/incometax",
     "/calculators/sip",
     "/calculators/emi",
     "/calculators/fd",
     "/calculators/rd",
     "/calculators/inflation",
-    "/calculators/take-home",
-    "/calculators/salary-breakup",
+    "/calculators/takehome",
+    "/calculators/salarybreakup",
     "/calculators/fire"
   ];
 

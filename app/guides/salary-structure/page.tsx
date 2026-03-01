@@ -38,7 +38,18 @@ export default function Page() {
                         employee in a year. It includes direct salary components
                         as well as benefits such as provident fund contributions
                         and gratuity.
-                    </p>
+                    </p>    
+                     <p className="mt-4">
+                        For a detailed comparison explaining how employer contributions,
+                        deductions, and tax impact your actual in-hand income, read our
+                        complete guide on{" "}
+                        <Link
+                            href="/guides/ctc-vs-take-home"
+                            className="text-indigo-600 font-medium hover:underline"
+                        >
+                            CTC vs Take-Home Salary
+                        </Link>.
+                    </p>                
 
                     <p className="mt-4">
                         However, CTC is not the same as your in-hand salary.
@@ -92,6 +103,8 @@ export default function Page() {
                         special allowance or other flexible components.
                     </p>
 
+                   
+
                     <h2 className="text-2xl font-semibold text-gray-900 mt-10 mb-4">
                         Why Salary Structure Matters
                     </h2>
@@ -127,7 +140,7 @@ export default function Page() {
                     <p className="mt-4">
                         👉{" "}
                         <Link
-                            href="/calculators/take-home"
+                            href="/calculators/takehome"
                             className="text-indigo-600 font-medium hover:underline"
                         >
                             Calculate Your Monthly Take-Home Salary
@@ -137,7 +150,7 @@ export default function Page() {
                     <p className="mt-4">
                         👉{" "}
                         <Link
-                            href="/calculators/salary-breakup"
+                            href="/calculators/salarybreakup"
                             className="text-indigo-600 font-medium hover:underline"
                         >
                             Use the Salary Breakup Calculator

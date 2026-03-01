@@ -106,7 +106,7 @@ export default function Page() {
           <p className="mt-4">
             👉{" "}
             <Link
-              href="/calculators/income-tax"
+              href="/calculators/incometax"
               className="text-indigo-600 font-medium hover:underline"
             >
               Try the Income Tax Regime Comparison Calculator

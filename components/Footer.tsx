@@ -51,6 +51,16 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
+          <ul className="space-y-1">
+            <li>
+              <Link
+                href="/guides/ctc-vs-take-home"
+                className="hover:text-gray-900"
+              >
+                CTC vs Take-Home Salary
+              </Link>
+            </li>
+          </ul>
         </div>
 
         {/* LEGAL */}
