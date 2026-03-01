@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/guides/income-tax-basics",
     "/guides/tax-regime",
     "/guides/salary-structure",
+    "/guides/ctc-vs-take-home",
 
     // Calculators
     "/calculators/incometax",
